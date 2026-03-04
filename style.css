@@ -1,0 +1,251 @@
+/* Global Styling */
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+
+    margin:0;
+
+    padding:0;
+
+}
+
+header{
+
+    text-align:center;
+
+    background:#0d47a1;
+
+    color:white;
+
+    padding:20px;
+
+}
+
+header h1{
+
+    margin:0;
+
+    font-size:32px;
+
+}
+
+.description{
+
+    margin-top:10px;
+
+    font-size:16px;
+
+}
+
+/* Event Info Section */
+
+.event-info{
+
+    width:80%;
+
+    margin:20px auto;
+
+}
+
+.event-info table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    background:white;
+
+}
+
+.event-info th, .event-info td{
+
+    border:1px solid #ccc;
+
+    padding:10px;
+
+    text-align:left;
+
+}
+
+.event-info th{
+
+    background:#bbdefb;
+
+}
+
+/* Form Card Layout */
+
+.form-container{
+
+    width:60%;
+
+    margin:20px auto;
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:10px;
+
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+
+}
+
+/* Fieldset & Legend */
+
+fieldset{
+
+    border:2px solid #1976d2;
+
+    padding:20px;
+
+    border-radius:8px;
+
+}
+
+legend{
+
+    font-weight:bold;
+
+    padding:5px 10px;
+
+    background:#e3f2fd;
+
+    border-radius:5px;
+
+}
+
+/* Form Elements */
+
+label{
+
+    display:block;
+
+    margin-top:15px;
+
+    font-weight:bold;
+
+}
+
+input, select, textarea{
+
+    width:100%;
+
+    padding:8px;
+
+    margin-top:5px;
+
+    border:1px solid #ccc;
+
+    border-radius:5px;
+
+    box-sizing:border-box;
+
+}
+
+input:focus, select:focus, textarea:focus{
+
+    border-color:#1976d2;
+
+    outline:none;
+
+}
+
+/* Inline radio & checkbox */
+
+.inline{
+
+    display:flex;
+
+    gap:15px;
+
+    margin-top:5px;
+
+}
+
+/* Declaration */
+
+.declaration{
+
+    margin-top:20px;
+
+    padding:10px;
+
+    background:#f1f8e9;
+
+    font-size:14px;
+
+}
+
+/* Buttons */
+
+.buttons{
+
+    margin-top:20px;
+
+    text-align:center;
+
+}
+
+button{
+
+    padding:10px 20px;
+
+    border:none;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    margin:5px;
+
+    transition:0.3s;
+
+}
+
+button[type="submit"]{
+
+    background:#2e7d32;
+
+    color:white;
+
+}
+
+button[type="reset"]{
+
+    background:#c62828;
+
+    color:white;
+
+}
+
+button:hover{
+
+    opacity:0.8;
+
+    box-shadow:0 3px 6px rgba(0,0,0,0.3);
+
+}
+
+/* Footer */
+
+footer{
+
+    text-align:center;
+
+    background:#0d47a1;
+
+    color:white;
+
+    padding:15px;
+
+    margin-top:30px;
+
+    font-size:14px;
+
+}
